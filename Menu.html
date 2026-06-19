@@ -1,0 +1,63 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Top 50 Subscribe</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-minimal.min.css">
+
+<style>
+html,body{
+margin:0;
+height:100%;
+background:#000;
+color:#fff;
+font-family:Arial,sans-serif;
+}
+
+main{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.odometer{
+font-size:80px;
+}
+
+.info{
+font-size:32px;
+margin:10px;
+}
+</style>
+</head>
+<body>
+
+<main>
+
+<h1><b>Top 50 Subscribe</b></h1>
+
+<div id="subs" class="odometer">50000000</div>
+
+<div class="info">
+<b id="watching">0</b> Watching
+</div>
+
+<div class="info">
+<b id="likes">0</b> Like
+</div>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
